@@ -1,0 +1,17 @@
+.about_nav {
+  display: flex;
+  justify-content: center;
+  margin-left: 23%;
+  margin-top: 20px;
+}
+
+.about_button {
+  background-color:transparent;
+	border-radius:18px;
+  color: #C9C9C9;
+  font-weight: 100;
+  font-family: 'Mulish', sans-serif;
+	font-size:22px;
+	padding:13px 64px;
+	text-decoration:none;
+}
