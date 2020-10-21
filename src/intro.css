@@ -1,0 +1,38 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_img {
+  opacity: 0.15
+}
+
+h1.left_img_header {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 91px;
+  font-weight: 500;
+  text-align: left;
+}
+
+
+p.left_img_text {
+  position: absolute;
+  top: 48%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  width: 514px;
+}
+
+
+.container_left_img {
+  position: relative;
+  text-align: center;
+}
