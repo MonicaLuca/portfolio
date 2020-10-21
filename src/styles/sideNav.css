@@ -1,0 +1,30 @@
+div.sideNav {
+background-color: #DCF2FA;
+height: 1000px;
+width: 23%;
+margin-top: -4px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.nav_img {
+  margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav_name {
+  text-align: center;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  margin-bottom: -12px;
+}
+
+.nav_email {
+  text-align: center;
+  color: black;
+  font-family: 'Antic Didone', serif;
+  font-size: 20px;
+  font-weight: 100;
+}

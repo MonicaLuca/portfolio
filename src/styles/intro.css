@@ -10,11 +10,11 @@
 h1.left_img_header {
   position: absolute;
   top: 15%;
-  left: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: black;
   font-family: 'Playfair Display', serif;
-  font-size: 91px;
+  font-size: 100px;
   font-weight: 500;
   text-align: left;
 }
@@ -22,13 +22,14 @@ h1.left_img_header {
 
 p.left_img_text {
   position: absolute;
-  top: 48%;
-  left: 45%;
+  top: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   color: black;
   font-family: 'Playfair Display', serif;
   font-size: 60px;
-  width: 514px;
+  width: 814px;
+  text-align: left;
 }
 
 

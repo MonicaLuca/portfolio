@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Nav from './components/nav'
 import Introduction from './components/introduction';
+import SideNav from './components/sideNav';
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <header className="App-header">
       <Introduction></Introduction>
       </header>
+      <SideNav></SideNav>
     </div>
  
   );
