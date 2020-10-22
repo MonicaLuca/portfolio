@@ -27,7 +27,7 @@ export default class SideNav extends Component {
         <IconButton className="social_icon" href='https://github.com/MonicaLuca' aria-label="Github Link">
         <GitHubIcon fontSize="large"></GitHubIcon>
         </IconButton>
-        <IconButton className="social_icon" href='https://medium.com/@monica.lucarini28' aria-label="Medium (blog) Link">
+        <IconButton className="social_icon" href='https://medium.com/@monica.lucarini28' aria-label="Medium Link">
         <CreateIcon fontSize="large"></CreateIcon>
         </IconButton>
         </div>

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../styles/about.css'
 import AboutNav from './aboutNav';
+import Education from './education';
+import Skills from './skills';
 
 export default class About extends Component {
   render() {
@@ -21,6 +23,8 @@ Web Development. </p>
       </section>
       <section> 
         <AboutNav></AboutNav>
+        {/* <Education></Education> */}
+        <Skills></Skills>
       </section>
     </div>
   )
