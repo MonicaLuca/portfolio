@@ -1,0 +1,39 @@
+.education {
+  margin-left: 29%;
+  margin-top: 20px;
+  margin-right: 7%;
+}
+
+.ed_title {
+  border-bottom: #C9C9C9 solid 1px;
+  padding-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.ed_experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ed_school {
+  display: flex;
+  flex-direction: row;
+}
+
+.school {
+  width: 250px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.school_name {
+  color: black;
+  font-family: 'Mulish', sans-serif;
+}
+
+.degree {
+  color: #A9A9A9;
+  font-family: 'Mulish', sans-serif;
+}
+
