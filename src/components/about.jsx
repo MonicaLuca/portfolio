@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import '../styles/about.css'
 import AboutNav from './aboutNav';
 import Education from './education';
 import Skills from './skills';
+
 
 export default class About extends Component {
   render() {
@@ -22,9 +24,15 @@ Web Development. </p>
         </div>
       </section>
       <section> 
-        <AboutNav></AboutNav>
-        {/* <Education></Education> */}
-        <Skills></Skills>
+        <Router>
+        <AboutNav/>
+        <Route path="/education">
+          <Education/>
+        </Route>
+        <Route exact path ="/">
+          <Skills/>
+        </Route>
+        </Router>
       </section>
     </div>
   )

@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/aboutNav.css'
 
 export default class AboutNav extends Component {
   render() {
-    return (
+    return (  
     <div>
       <nav className='about_nav'>
-        <a href="#" className="about_button">Education</a>
-        <a href="#" className="about_button">Skills</a>
+        <Link className="about_button" to="/education">Education</Link>
+        <Link className="about_button" to="/">Skills</Link>
         <a href="https://resume.creddle.io/resume/2qaapzqnnps" className="about_button">Resume</a>
       </nav>
     </div>
