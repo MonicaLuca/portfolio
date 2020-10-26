@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import '../styles/sideNav.css'
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -16,10 +17,9 @@ export default class SideNav extends Component {
           <h3 className='nav_email'>monica.lucarini28@gmail.com</h3>
         </div>
         <div className="nav_button_group">
-          <a href="/" className="nav_button">Introduction</a>
-          <a href="/" className="nav_button">About</a>
-          <a href="/" className="nav_button">Projects</a>
-          <a href="/" className="nav_button">My Timeline</a>
+        <Link className="nav_button" to="/">About</Link>
+        <Link className="nav_button" to="/projects">Projects</Link>
+        <Link className="nav_button" to="/timeline">My Timeline</Link>
         </div>
         <div className="icon_button_group">
           <IconButton href='https://www.linkedin.com/in/monica-lucarini/' aria-label="LinkedIn Link">

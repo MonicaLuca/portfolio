@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/education.css'
 
-export default class AboutNav extends Component {
+export default class Education extends Component {
   render() {
     return (
       <div className='education'>

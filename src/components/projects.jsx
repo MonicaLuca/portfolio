@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ProjectsNav from './projectsNav';
+import Project from './project';
 import '../styles/projects.css'
 
 
@@ -16,22 +17,30 @@ export default class Projects extends Component {
           <p className="projects_desc"> Insert TECH STACK OF CURRENT PROJECT </p>
         </div>
       </section>
+      <section> 
+      <h2 className='project_label'>Education</h2>
       <Router>
         <ProjectsNav/>
-        <Route path="/Kitchionary">
+        <Route exact path="/projects">
+          <Project/>
         </Route>
-        <Route path="/GoodBuy">
+        <Route exact path="/GoodBuy">
+          <Project/>
         </Route>
-        <Route path="/Jungle">
+        <Route exact path="/Jungle">
+          <Project/>
         </Route>
-        <Route path="/Tweeter">
+        <Route exact path="/Tweeter">
+          <Project/>
         </Route>
-        <Route path="/Scheduler">
+        <Route exact path="/Scheduler">
+          <Project/>
         </Route>
-        <Route path="/TinyApp">
+        <Route exact path="/TinyApp">
+          <Project/>
         </Route>
       </Router>
-      <section> 
+    
       
       </section>
     </div>

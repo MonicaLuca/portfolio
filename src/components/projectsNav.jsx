@@ -7,7 +7,7 @@ export default class ProjectsNav extends Component {
     return (  
     <div>
       <nav className='projects_nav'>
-        <Link className="projects_button" to="/">Kitchionary</Link>
+        <Link className="projects_button" to="/projects">Kitchionary</Link>
         <Link className="projects_button" to="/GoodBuy">GoodBuy</Link>
         <Link className="projects_button" to="/Jungle">Jungle</Link>
         <Link className="projects_button" to="/Scheduler">Scheduler</Link>

@@ -32,3 +32,12 @@
   font-size: 22px;
   padding-bottom: 50px;
 }
+
+.project_label {
+  border-bottom: #C9C9C9 solid 1px;
+  padding-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 28%;
+  width: 67%;
+  margin-top: 2.5%;
+}
